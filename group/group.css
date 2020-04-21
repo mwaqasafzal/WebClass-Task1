@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.group{
+    display: flex;
+    flex-direction: column;
+    font-family: mon
+}
+
+.domain,.member-name{
+    font-weight: bold;
+}
+
+.group .header{
+    text-align: center;
+}
+
+.members-list li,.technologies-list li{
+    margin:0.5rem;
+}

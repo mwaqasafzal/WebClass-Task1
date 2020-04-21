@@ -1,0 +1,42 @@
+
+.task{
+    width:50%;
+    margin:0 auto;
+    margin-top:10px;
+    min-width: 240px;
+    max-width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color:#0f4c75; 
+    border-radius: 6px;
+}
+.task .task-title{
+    width:100%;
+    text-align: center;
+    border-bottom:2px solid white;
+    padding-bottom:4px;
+    color:white;    
+    font-size:1.7rem;
+
+}
+.task .task-list{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+
+.task .task-name {
+    font-size:1.3rem;
+    margin:0.8rem;
+}
+
+.task-name a{
+  color:white;
+  text-decoration: none;
+}
+
+.task-name a:hover{
+    color:#cccc;
+}

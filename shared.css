@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat&display=swap');
 
+
 *{
   box-sizing: border-box;
   
@@ -50,6 +51,9 @@ body{
   text-decoration: none;
 } 
 
+.navitem a:hover{
+  color:#cccc;
+}
 
 .monogram a{
   font-family: 'Bangers', cursive;

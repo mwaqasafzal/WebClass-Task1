@@ -18,4 +18,9 @@ function init() {
 function registerEvents() {
   navToggleBtn.addEventListener('click', () => mobileNavBar.style.display = "block");
   navCloseBtn.addEventListener('click', () => mobileNavBar.style.display = "none");
+  window.addEventListener('resize',()=>{
+    console.log(window.innerWidth);
+    if(window.innerWidth>=560)
+      mobileNavBar.style.display="none";
+  });
 }
